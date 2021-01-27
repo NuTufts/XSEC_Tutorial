@@ -7,5 +7,8 @@ The python code tutorials should be well commented, and the process broken down.
 
 Then `cd RooUnfold` and play around with the jupyter notebooks.
 `Tutorial_RooUnfold_Data.ipynb`    is a notebook designed to show how to extract a cross section from data.
+`Tutorial_RooUnfold_InOutTest.ipynb`    is a notebook designed to show how to perform an InOutTest, where you feed the extraction the MC signal to endsure that it is unfolding, then calculating correctly. The resulting XSEC should be very much in line with the Genie Prediction that goes into making the MC.
+
+Then there are two .py scripts that mirror the above notebooks in the method of a .py script rather than a notebook. These are untested, and are essentially just the notebook contents dumped into a main()
 
 
